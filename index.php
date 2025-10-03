@@ -1,116 +1,47 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node/node_modules/bootstrap/csscompiler/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.typekit.net/kir3csx.css">
-	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="node/node_modules/bootstrap/csscompiler/bootstrap.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="public/Assets/css/style.css">
+	<link rel="stylesheet" href="https://use.typekit.net/kir3csx.css">
+
+	<!-- Favicon -->
+	<link rel="icon" href="public/Assets/images/favicon.ico" type="image/x-icon">
+
+	<!-- Font awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <title>Federação Brasileira de Triathlon - FALTRI</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+	<title>Federação Brasileira de Triathlon - FALTRI</title>
+</head>
 
-  </head>
-  <body>
-	<!-- Menu fixo -->
-  	<nav class="navbar navbar-expand-lg fixed-top" id="mainNav" style="background-color: #eee !important;">
-		<div class="container">
-	       <a class="navbar-brand" href="#">
-		    <img src="img/logofaltri.png" width="120" class="d-inline-block align-top" alt="federação alagoana de triathlon logo"></a>
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="navbar-toggler-icon"></span>
-	      </button>
-	      <div class="collapse navbar-collapse" id="navbarResponsive">
-	        <ul class="navbar-nav mx-auto">
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-					Institucional
-					</a>
-					<div class="dropdown-menu">
-					<a class="dropdown-item" href="#">Diretoria</a>
-					<a class="dropdown-item" href="#">Estatuto</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Tabela de Taxas Permit</a>
-					<a class="dropdown-item" href="#">Reg. Nacional de Concessão de Permit</a>
-					</div>
-				</li>
-	          <li class="nav-item">
-	            <a class="nav-link js-scroll-trigger" href="#about">Sobre FALTRI</a>
-	          </li>
-			  	<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-					Iniciativas
-					</a>
-					<div class="dropdown-menu">
-					<a class="dropdown-item" href="#">Simulador Triathlon 3D</a>
-					</div>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-					Competição
-					</a>
-					<div class="dropdown-menu">
-					<a class="dropdown-item" href="#">Calendário</a>
-					<a class="dropdown-item" href="#">Regulamento</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Ranking</a>
-					<a class="dropdown-item" href="#">Resultados</a>
-					</div>
-				</li>
-				<li class="nav-item">
-	            <a class="nav-link" href="#">Admin</a>
-	          </li>
-			  		<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-					Transparência
-					</a>
-					<div class="dropdown-menu">
-					<a class="dropdown-item" href="#">Prestação de contas</a>
-					<a class="dropdown-item" href="#">Parcerias públicas</a>
-					</div>
-				</li>
-	          <!-- <li class="nav-item">
-	            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-	          </li> -->
-	          <li class="nav-item">
-	            <a class="nav-link js-scroll-trigger" href="#portfolio">Noticias</a>
-	          </li>
-	          <!-- <li class="nav-item">
-	            <a class="nav-link js-scroll-trigger" href="#work">Notícias</a>
-	          </li> -->
-	          <li class="nav-item">
-	            <a class="nav-link js-scroll-trigger" href="#contact">Atendimento</a>
-	          </li>
-	        </ul>
-			<ul class="navbar-nav sm-icons">
-				<li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-youtube"></i></a><li>
-				<li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a><li>
-				<li class="nav-item"><a class="nav-link" href="https://www.instagram.com/faltri_al/"><i class="fa-brands fa-instagram"></i></a><li>
-				<li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a><li>
-			</ul>
-	      </div>
-	    </div>
-	  </nav>
+<body>
+	<?php include 'includes/header.php'; ?>
 
 	<!-- Parte inicial do site + Jumbotron -->
-    <div class="container-fluid top-full">
-    	<div class="container-retina">
-	    	<div class="jumbotron w-100 j-style">
-			  <h1 class="display-4 j-title text-center" style="padding: 0 11% 0;">Apresentação do EPP (Exames de Pré-participação) é obrigátoria para categórias de alto rendimento.</h1>
-			  <a class="btn btn-primary btn-lg j-buttom" href="#" role="button" id="buttontop">Leia mais</a>
+	<div class="container-fluid top-full">
+		<div class="container-retina">
+			<div class="jumbotron w-100 j-style">
+				<h1 class="display-4 j-title text-center" style="padding: 0 11% 0;">Apresentação do EPP (Exames
+					de
+					Pré-participação) é obrigátoria para categórias de alto rendimento.</h1>
+				<a class="btn btn-primary btn-lg j-buttom" href="#" role="button" id="buttontop">Leia mais</a>
 			</div>
 		</div>
-    </div>
+	</div>
 
 	<!-- Diferenciais que você pode oferecer -->
 	<!-- ****OBS: Adicionei uma classe extra que iremos utilizar apenas aqui chamada col-details para colocar configurações responsivas na media query ;) -->
-  <!-- <div class="col-12 col-sm-6 col-lg-3 col-portfolio col-details">
+	<!-- <div class="col-12 col-sm-6 col-lg-3 col-portfolio col-details">
     <div class="container-fluid detalhes-full">
 	  <div class="row row-icons">
 	      <div class="card" style="background:none; border:none;">
@@ -155,7 +86,7 @@
 	  </div>
 	</div> -->
 
-    <!-- About ou Sobre nós -->
+	<!-- About ou Sobre nós -->
 	<!-- <section id="about">
 	    <div class="container-fluid about-full">
 	    	<h2 class="w-100 text-center title-about">
@@ -250,10 +181,10 @@
 	<section id="work">
 		<!-- ****OBS: O id do Título e do texto foi removido por opção minha, mas caso queira deixar, fica a seu critério ;) -->
 		<div class="container-fluid about-full" style="padding: 11% 0;">
-	    	<h2 class="w-100 text-center title-about">
-	    		Nossos Eventos
-	    	</h2>
-	    	<p class="lead text-center p-about">
+			<h2 class="w-100 text-center title-about">
+				Nossos Eventos
+			</h2>
+			<p class="lead text-center p-about">
 				Ôxe de Triatlo 2018 II Etapa - Maceió - Mini Sprint
 
 				400mts Natação
@@ -261,10 +192,12 @@
 				2,5km Corrida
 			</p>
 			<div class="video-responsive">
-				<iframe src="https://www.youtube.com/embed/-91EtK1c8EA?si=vuKERqn1zy7YivlW" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/-91EtK1c8EA?si=vuKERqn1zy7YivlW" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
 			</div>
-	    	</span>
-	    </div>
+			</span>
+		</div>
 	</section>
 
 	<!-- Portfólio de imagens de nossos serviços ou produtos + Efeito com CSS3 -->
@@ -380,206 +313,152 @@
 	<!-- Carousel com depoimentos
 	*****OBS: As classes nativas do Bootstrap d-none e d-sm-block foram colocadas nessa div para que o carousel suma na resolução small, por opção minha! Para fazer com que seu carousel apareça em todas as resoluções, basta remover essas duas classes ;) -->
 	<div id="carouselExampleIndicators" class="carousel slide d-none d-sm-block" data-ride="carousel">
-	  <ol class="carousel-indicators">
-	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-	  </ol>
-	  <div class="carousel-inner">
-	    <div class="carousel-item active">
-	      <img class="d-block w-100" src="img/back-carousel.png" alt="Primeiro Slide">
-	      <div class="carousel-caption d-none d-sm-block carousel-position">
-		     <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</h5>
-		    <p>Fulano de Tal"</p>
-		  </div>
-	    </div>
-	    <div class="carousel-item">
-	      <img class="d-block w-100" src="img/back-carouse2.png" alt="Segundo Slide">
-	      <div class="carousel-caption carousel-position">
-		    <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"</h5>
-		    <p>Fulano de Tal</p>
-		  </div>
-	    </div>
-	    <div class="carousel-item">
-	      <img class="d-block w-100" src="img/back-carousel.png" alt="Terceiro Slide">
-	      <div class="carousel-caption carousel-position">
-		    <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"</h5>
-		    <p>Fulano de Tal</p>
-		  </div>
-	    </div>
-	  </div>
-	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Anterior</span>
-	  </a>
-	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Próximo</span>
-	  </a>
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block w-100" src="public/Assets/images/back-carousel.png" alt="Primeiro Slide">
+				<div class="carousel-caption d-none d-sm-block carousel-position">
+					<h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt
+						ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</h5>
+					<p>Fulano de Tal"</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="public/Assets/images/back-carouse2.png" alt="Segundo Slide">
+				<div class="carousel-caption carousel-position">
+					<h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt
+						ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"</h5>
+					<p>Fulano de Tal</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="public/Assets/images/back-carousel.png" alt="Terceiro Slide">
+				<div class="carousel-caption carousel-position">
+					<h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt
+						ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"</h5>
+					<p>Fulano de Tal</p>
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Anterior</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Próximo</span>
+		</a>
 	</div>
 
 	<!-- Bandeiras parceiras -->
 	<div class="row row-icons">
 		<!-- ****OBS: Adicionei uma classe extra que iremos utilizar apenas aqui chamada col-logos para colocar configurações responsivas na media query ;) -->
-	    <div class="col col-logo">
-	      <div class="card" style="background:none; border:none;">
-			<a href="#">
-			  <img class="card-img-top card-logos card-work" src="img/TA.png" alt="Imagem de capa do card">
-		  	</a>
+		<div class="col col-logo">
+			<div class="card" style="background:none; border:none;">
+				<a href="#">
+					<img class="card-img-top card-logos card-work" src="public/Assets/images/TA.png"
+						alt="Imagem de capa do card">
+				</a>
+			</div>
 		</div>
-	    </div>
-	    <div class="col col-logo">
-	      <div class="card" style="background:none; border:none;">
-			  <img class="card-img-top card-logos card-work" src="img/TB.png" alt="Imagem de capa do card">
-		  </div>
-	    </div>
-	    <div class="col col-logo">
-	      <div class="card" style="background:none; border:none;">
-			  <img class="card-img-top card-logos card-work" src="img/TBB.png" alt="Imagem de capa do card">
-		  </div>
-	    </div>
-	    <div class="col col-logo">
-	      <div class="card" style="background:none; border:none;">
-			  <img class="card-img-top card-logos card-work" src="img/WTT.png" alt="Imagem de capa do card">
-		  </div>
-	    </div>
-	 </div>
+		<div class="col col-logo">
+			<div class="card" style="background:none; border:none;">
+				<img class="card-img-top card-logos card-work" src="public/Assets/images/TB.png"
+					alt="Imagem de capa do card">
+			</div>
+		</div>
+		<div class="col col-logo">
+			<div class="card" style="background:none; border:none;">
+				<img class="card-img-top card-logos card-work" src="public/Assets/images/TBB.png"
+					alt="Imagem de capa do card">
+			</div>
+		</div>
+		<div class="col col-logo">
+			<div class="card" style="background:none; border:none;">
+				<img class="card-img-top card-logos card-work" src="public/Assets/images/WTT.png"
+					alt="Imagem de capa do card">
+			</div>
+		</div>
+	</div>
 
 	<!-- Sessão de Contato + Form -->
 	<section id="contact">
 		<div class="container-fluid detalhes-full">
 			<div class="row row-icons">
-			    <div class="col-12">
-			    	<h2 class="w-100 text-center title-about" style="font-weight:600;">
-			    		Contribua com sugestões
-			    	</h2>
+				<div class="col-12">
+					<h2 class="w-100 text-center title-about" style="font-weight:600;">
+						Contribua com sugestões
+					</h2>
 					<div class="line line-center"></div>
-			    </div>
+				</div>
 
-			    <div class="col-12">
-			    	<h5 class="subtitle-form p-about">O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com <span class="required"></span></h5>
+				<div class="col-12">
+					<h5 class="subtitle-form p-about">O seu endereço de e-mail não será publicado. Campos
+						obrigatórios
+						são marcados com <span class="required"></span></h5>
 				</div>
 
 				<div class="col-6">
 					<form>
-					  <div class="form-group">
-						<label for="exampleInputEmail1">Nome<span class="required"></span></label>
-						<input type="name" class="form-control" id="exampleFormControlInput1" aria-describedby="emailHelp" placeholder="João da Silva">
+						<div class="form-group">
+							<label for="exampleInputEmail1">Nome<span class="required"></span></label>
+							<input type="name" class="form-control" id="exampleFormControlInput1"
+								aria-describedby="emailHelp" placeholder="João da Silva">
+						</div>
+				</div>
+
+				<div class="col-6">
+					<div class="form-group">
+						<label for="exampleInputEmail1">E-mail<span class="required"></span></label>
+						<input type="email" class="form-control" id="exampleFormControlInput1"
+							placeholder="joaodasilva@gmail.com">
 					</div>
 				</div>
 
 				<div class="col-6">
 					<div class="form-group">
-					  <label for="exampleInputEmail1">E-mail<span class="required"></span></label>
-				    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="joãodasilva@gmail.com">
-				  </div>
-				</div>
-
-				<div class="col-6">
-					<div class="form-group">
-					  <label for="exampleInputEmail1">Whatsapp</label>
-				    <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="(82) 91234-5678">
-				  </div>
+						<label for="exampleInputEmail1">Whatsapp</label>
+						<input type="phone" class="form-control" id="exampleFormControlInput1"
+							placeholder="(82) 91234-5678">
+					</div>
 				</div>
 
 				<div class="col-12">
-				  <div class="form-group">
-					<label for="exampleInputEmail1">Assunto</label>
-				    <input type="title" class="form-control" id="exampleFormControlInput1" placeholder="Escreva um assunto">
+					<div class="form-group">
+						<label for="exampleInputEmail1">Assunto</label>
+						<input type="title" class="form-control" id="exampleFormControlInput1"
+							placeholder="Escreva um assunto">
+					</div>
 				</div>
-			</div>
 
-			<div class="col-12">
-				<div class="form-group">
-					  <label for="exampleInputEmail1">Comentário ou mensagem<span class="required"></span></label>
-				    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escreva sua mensagem"></textarea>
-				  </div>
+				<div class="col-12">
+					<div class="form-group">
+						<label for="exampleInputEmail1">Comentário ou mensagem<span class="required"></span></label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+							placeholder="Escreva sua mensagem"></textarea>
+					</div>
 					</form>
 				</div>
 
 				<div class="col-12">
-					<button type="submit" class="btn btn-primary" style="margin: 0 auto; display: table;">Enviar</button>
+					<button type="submit" class="btn btn-primary"
+						style="margin: 0 auto; display: table;">Enviar</button>
 				</div>
 			</div>
 		</div>
 	</section>
 
-
-	<!-- Footer + Barra de navegação do fundo -->
-	<div class="container-fluid footer">
-		<div class="row">
-		    <div class="col-6 col-lg-3">
-		    	<strong class="name-layout">
-		    		Contato
-		    	</strong>
-		    	<span class="copyright" style="word-wrap: break-word;">
-		    		@2025 Federação Alagoana de Triathlon. Todos os direitos reservados.<br>
-		    		Developer: <a href="https://www.instagram.com/douglasdasilva_17/">D.Silva</a>
-		    	</span>
-		    </div>
-		    <div class="col-6 col-lg-3">
-		    	<span class="contact" style="word-wrap: break-word;">
-		    		presidentefaltri@gmail.com<br>
-		    		+82 93258-5842
-		    	</span>
-		    </div>
-		    <div class="col-12 col-lg-6">
-		    	<!-- Adicionei uma classe extra que iremos utilizar apenas aqui chamada row-footer-submenu para colocar configurações responsivas na media query ;) -->
-		    	<div class="row row-footer-submenu" style="margin:19% 0 0;">
-		    		<div class="col-4 col-lg-2">
-		    			<ul class="nav flex-column">
-						  <li class="nav-item">
-						    <a class="nav-link" href="#">About</a>
-						  </li>
-						  <li class="nav-item">
-						    <a class="nav-link" href="#">Projects</a>
-						  </li>
-						  <li class="nav-item">
-						    <a class="nav-link" href="#">Services</a>
-						  </li>
-						  <li class="nav-item">
-						    <a class="nav-link" href="#">Carrer</a>
-						  </li>
-						</ul>
-					</div>
-
-					<div class="col-4 col-lg-2">
-						<ul class="nav flex-column">
-						  <li class="nav-item">
-						    <a class="nav-link" href="#">News</a>
-						  </li>
-						  <li class="nav-item">
-						    <a class="nav-link" href="#">Contacts</a>
-						  </li>
-						  <li class="nav-item">
-						    <a class="nav-link" href="#">Events</a>
-						  </li>
-						  <li class="nav-item">
-						    <a class="nav-link" href="#">Legals</a>
-						  </li>
-						</ul>
-					</div>
-
-				<div class="col-4 col-lg-2">
-					<ul class="nav flex-column">
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Facebook</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Instagram</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Twitter</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">YouTube</a>
-					  </li>
-					</ul>
-				</div>
-		    </div>
-		</div>
-	</div>
-
+	<?php include 'includes/footer.php'; ?>
 
 	<!-- Bootstrap core JavaScript -->
 	<script src="scroll-menu/vendor/jquery/jquery.min.js"></script>
@@ -591,6 +470,7 @@
 	<!-- Custom JavaScript for this theme -->
 	<script src="scroll-menu/js/scrolling-nav.js"></script>""
 
-    <script src="node/node_modules/popper.js/dist/umd/popper.min.js"></script>
-  </body>
+	<script src="node/node_modules/popper.js/dist/umd/popper.min.js"></script>
+</body>
+
 </html>
